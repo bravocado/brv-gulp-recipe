@@ -23,7 +23,7 @@ module.exports = {
     dest: dest + "/images"
   },
   templates: {
-    src: [src + "/views/**/*.jade", "!" + src + "/views/layouts/*.jade"],
+    src: [src + "/views/**/*.jade", "!" + src + "/views/layouts/*.jade", "!" + src + "/views/includes/*.jade"],
     dest: dest
   },
   copystyles: {

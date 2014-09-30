@@ -35,4 +35,4 @@ clone this repo. Go to this repo dir.
 
 ## Run
 
-- `gulp`
+`gulp`

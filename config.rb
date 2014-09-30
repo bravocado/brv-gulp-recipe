@@ -1,5 +1,5 @@
 # Compass Config
-preferred_syntax = :scss
+preferred_syntax = :sass
 http_path = '/'
 css_dir = 'dist/css'
 sass_dir = 'build/sass'

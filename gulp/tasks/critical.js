@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var critical = require('critical');
+var config=require('../config').critical;
 
 // Generate & Inline Critical-path CSS
 gulp.task('critical', ['copystyles'], function () {
@@ -14,12 +15,12 @@ gulp.task('critical', ['copystyles'], function () {
   // 'copystyles' above
 
   critical.generateInline({
-    base: 'dist/',
-    src: 'index.html',
-    styleTarget: 'css/site.css',
-    htmlTarget: 'index.html',
-    width: 320,
-    height: 480,
-    minify: true
+    base: config.base,
+    src: config.src,
+    styleTarget: config.styleTarget,
+    htmlTarget: config.htmlTarget,
+    width: config.width,
+    height: config.height,
+    minify: config.minify
   });
 });

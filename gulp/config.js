@@ -25,5 +25,18 @@ module.exports = {
   templates: {
     src: [src + "/views/**/*.jade", "!" + src + "/views/layouts/*.jade"],
     dest: dest
+  },
+  copystyles: {
+    src: dest + "/css/style.min.css",
+    dest: dest + "/css"
+  },
+  critical: {
+    base: dest,
+    src: 'index.html',
+    styleTarget: 'css/site.css',
+    htmlTarget: 'index.html',
+    width: 320,
+    height: 480,
+    minify: true
   }
 };

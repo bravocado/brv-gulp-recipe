@@ -1,9 +1,5 @@
 var gulp = require('gulp');
 var sourcemaps = require('gulp-sourcemaps');
-var autoprefixer = require('gulp-autoprefixer');
-var concat = require('gulp-concat');
-var rename = require('gulp-rename');
-var critical = require('critical');
 var sass = require('gulp-sass');
 var handleErrors = require('../util/handleErrors');
 var config=require('../config').sass;

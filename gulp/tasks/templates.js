@@ -1,8 +1,9 @@
-var gulp = require('gulp');
-var jade = require('gulp-jade');
-var config = require('../config').templates;
+var gulp = require('gulp'),
+		jade = require('gulp-jade'),
+		config = require('../config').templates
+;
 
-gulp.task('templates', function() {
+gulp.task('templates', ['clean'], function() {
 
   gulp.src(config.src)
     .pipe(jade({

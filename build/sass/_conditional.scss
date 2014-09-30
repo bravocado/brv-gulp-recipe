@@ -11,7 +11,7 @@ $global-border-box: 							true;
 
 // when you set it true, all unit will add a fallback to px
 // and mixin vendor will add "-moz" prefix
-$oldie: 													true;
+$oldie: 													false;
 
 //
 // ================================================
@@ -22,7 +22,7 @@ $oldie: 													true;
 //
 
 $use-base-color: 									true;
-$use-extra-color: 								true;
+$use-extra-color: 								false;
 
 //
 // ================================================
@@ -30,7 +30,7 @@ $use-extra-color: 								true;
 // ================================================
 //
 
-$use-alerts: 											true;
+$use-alerts: 											false;
 
 
 // 
@@ -51,7 +51,7 @@ $use-buttons: 										true;
 // ================================================
 // 
 
-$use-split-buttons: 							true;
+$use-split-buttons: 							false;
 
 
 // 
@@ -62,7 +62,7 @@ $use-split-buttons: 							true;
 // ================================================
 // 
 
-$use-button-group: 								true;
+$use-button-group: 								false;
 
 
 // 
@@ -73,7 +73,7 @@ $use-button-group: 								true;
 // ================================================
 // 
 
-$use-breadcrumbs: 								true;
+$use-breadcrumbs: 								false;
 
 
 // 
@@ -83,7 +83,7 @@ $use-breadcrumbs: 								true;
 // ================================================
 // 
 
-$use-codes: 											true;
+$use-codes: 											false;
 
 
 // 
@@ -105,7 +105,7 @@ $use-fonts: 											true;
 // ================================================
 // 
 
-$use-forms: 											true;
+$use-forms: 											false;
 
 
 // 
@@ -136,7 +136,7 @@ $use-grid-push-pull: 							true;
 // ================================================
 // 
 
-$use-label: 											true;
+$use-label: 											false;
 
 
 // 
@@ -158,7 +158,7 @@ $use-media: 											true;
 // ================================================
 // 
 
-$use-navs: 												true;
+$use-navs: 												false;
 
 
 // 
@@ -169,7 +169,7 @@ $use-navs: 												true;
 // ================================================
 // 
 
-$use-tables: 											true;
+$use-tables: 											false;
 
 
 // 
@@ -191,10 +191,10 @@ $use-typography: 									true;
 // ================================================
 // 
 
-$use-pagination: 									true;
+$use-pagination: 									false;
 
-$use-pagination-sizes: 						true;
-$use-pagination-themes: 					true;
+$use-pagination-sizes: 						false;
+$use-pagination-themes: 					false;
 
 
 // 
@@ -216,9 +216,9 @@ $use-inline-list: 								true;
 // ================================================
 // 
 
-$use-boxy: 												true;
+$use-boxy: 												false;
 
-$use-boxy-color: 									true;
+$use-boxy-color: 									false;
 
 
 // 
@@ -231,5 +231,5 @@ $use-boxy-color: 									true;
 
 $use-helpers: 										true;
 $use-helper-clearfix: 						true;
-$use-helper-visibility: 					true;
+$use-helper-visibility: 					false;
 

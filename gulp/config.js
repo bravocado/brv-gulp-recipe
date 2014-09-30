@@ -27,7 +27,7 @@ module.exports = {
     dest: dest
   },
   copystyles: {
-    src: dest + "/css/style.min.css",
+    src: dest + "/css/style.css",
     dest: dest + "/css"
   },
   critical: {

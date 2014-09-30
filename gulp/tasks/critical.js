@@ -3,7 +3,7 @@ var critical = require('critical');
 var config=require('../config').critical;
 
 // Generate & Inline Critical-path CSS
-gulp.task('critical', ['copystyles'], function () {
+gulp.task('critical', ['sass', 'copystyles'], function () {
 
   // At this point, we have our
   // production styles in main/styles.css

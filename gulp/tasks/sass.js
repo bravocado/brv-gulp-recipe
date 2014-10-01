@@ -19,7 +19,7 @@ gulp.task('sass', ['images'], function () {
     .pipe(gulp.dest(config.dest));
 });
 
-gulp.task('sass:compressed', ['images'], function () {
+gulp.task('sass:compressed', ['sass'], function () {
   return gulp.src(config.src)
     .pipe(sourcemaps.init())
       .pipe(sass({
@@ -27,10 +27,10 @@ gulp.task('sass:compressed', ['images'], function () {
         outputStyle: 'compressed',
         includePaths: ['node_modules/npm-anila/scss/']
       }))
-    .pipe(sourcemaps.write('./maps'))
-    .on('error', handleErrors)
     .pipe(rename({
       basename: "style.min"
     }))
+    .pipe(sourcemaps.write('./maps'))
+    .on('error', handleErrors)
     .pipe(gulp.dest(config.dest));
 });

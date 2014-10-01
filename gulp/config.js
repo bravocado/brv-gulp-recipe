@@ -33,7 +33,7 @@ module.exports = {
   critical: {
     base: dest,
     src: 'index.html',
-    styleTarget: 'css/site.css',
+    styleTarget: 'css/critical.css',
     htmlTarget: 'index.html',
     width: 320,
     height: 480,

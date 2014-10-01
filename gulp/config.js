@@ -38,5 +38,9 @@ module.exports = {
     width: 320,
     height: 480,
     minify: true
+  },
+  copy: {
+    htaccess: '.htaccess',
+    dest: 'dist'
   }
 };

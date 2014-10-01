@@ -42,5 +42,18 @@ module.exports = {
   copy: {
     htaccess: '.htaccess',
     dest: 'dist'
+  },
+  browserify: {
+    // Enable source maps
+    debug: true,
+    // Additional file extentions to make optional
+    extensions: ['.js'],
+    // A separate bundle will be generated for each
+    // bundle config in the list below
+    bundleConfigs: [{
+      entries: './build/scripts/app.js',
+      dest: dest,
+      outputName: 'scripts/app.js'
+    }]
   }
 };

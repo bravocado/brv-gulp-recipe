@@ -11,9 +11,9 @@ ExpiresDefault A29030400
 ExpiresDefault A604800
 </FilesMatch>
  
-# 3 HOUR - core content, changes quickly
+# 1 WEEK - core content, changes quickly
 <FilesMatch "\.(txt|xml|js|css)$">
-ExpiresDefault A10800
+ExpiresDefault A604800
 </FilesMatch>
 
 # compress text, html, javascript, css, xml:

@@ -47,7 +47,7 @@ module.exports = {
     // Enable source maps
     debug: true,
     // Additional file extentions to make optional
-    extensions: ['.js'],
+    extensions: ['.js', 'coffee'],
     // A separate bundle will be generated for each
     // bundle config in the list below
     bundleConfigs: [{

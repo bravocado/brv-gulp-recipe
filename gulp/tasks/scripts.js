@@ -1,12 +1,12 @@
-var gulp = require('gulp'),
-    bundleLogger = require('../util/bundleLogger'),
-    handleErrors = require('../util/handleErrors'),
-    watchify = require('watchify')
-    browserify = require('browserify'),
-    source = require('vinyl-source-stream'),
-    streamify = require('gulp-streamify'),
-    uglify = require('gulp-uglify'),
-    config = require('../config').scripts
+var gulp = require('gulp')
+    ,bundleLogger = require('../util/bundleLogger')
+    ,handleErrors = require('../util/handleErrors')
+    ,watchify = require('watchify')
+    ,browserify = require('browserify')
+    ,source = require('vinyl-source-stream')
+    ,streamify = require('gulp-streamify')
+    ,uglify = require('gulp-uglify')
+    ,config = require('../config').scripts
 ;
 
 gulp.task('scripts', ['templates'], function(callback) {

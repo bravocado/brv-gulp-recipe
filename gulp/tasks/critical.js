@@ -1,6 +1,6 @@
-var gulp = require('gulp'),
-    critical = require('critical'),
-    config = require('../config').critical
+var gulp = require('gulp')
+    ,critical = require('critical')
+    ,config = require('../config').critical
 ;
 
 // Generate & Inline Critical-path CSS

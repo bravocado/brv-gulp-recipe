@@ -1,5 +1,5 @@
 var gulp = require('gulp')
-		del = require('del')
+		,del = require('del')
 ;
 
 // Clean Output Directory

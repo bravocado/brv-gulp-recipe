@@ -1,9 +1,9 @@
-var gulp = require('gulp'),
-    sourcemaps = require('gulp-sourcemaps'),
-    sass = require('gulp-sass'),
-    rename = require('gulp-rename'),
-    handleErrors = require('../util/handleErrors'),
-    config = require('../config').sass
+var gulp = require('gulp')
+    ,sourcemaps = require('gulp-sourcemaps')
+    ,sass = require('gulp-sass')
+    ,rename = require('gulp-rename')
+    ,handleErrors = require('../util/handleErrors')
+    ,config = require('../config').sass
 ;
 
 gulp.task('sass', ['images'], function () {

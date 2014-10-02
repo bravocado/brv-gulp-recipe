@@ -8,6 +8,5 @@ gulp.task('build', [
 	,'critical'
 	,'scripts'
 	,'copy:misc'
-	//,'copy:scripts'
 	]
 );

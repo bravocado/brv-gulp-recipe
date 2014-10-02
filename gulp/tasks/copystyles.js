@@ -1,6 +1,6 @@
-var gulp = require('gulp'),
-		rename = require('gulp-rename'),
-		config = require('../config').copystyles
+var gulp = require('gulp')
+		,rename = require('gulp-rename')
+		,config = require('../config').copystyles
 ;
 
 // Copy our site styles to a site.css file

@@ -1,7 +1,7 @@
-var changed = require('gulp-changed'),
-		gulp = require('gulp'),
-		imagemin = require('gulp-imagemin'),
-		config = require('../config').images;
+var changed = require('gulp-changed')
+		,gulp = require('gulp')
+		,imagemin = require('gulp-imagemin')
+		,config = require('../config').images
 ;
 
 gulp.task('images',['templates'], function() {

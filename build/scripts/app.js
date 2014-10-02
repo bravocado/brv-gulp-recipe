@@ -1,16 +1,1 @@
-var _ = require('underscore'),
-  names = require('./test.js');
-
-console.log('app.js loaded!');
-
-findSuperman(names());
- 
-function findSuperman(values) {
-  _.find(values, function(name) {
-    if (name === 'Clark Kent') {
-      console.log('It\'s Superman!');
-    } else {
-      console.log('... No superman!');
-    }
-  });
-}
+!function r(e,o,i){function t(s,l){if(!o[s]){if(!e[s]){var p="function"==typeof require&&require;if(!l&&p)return p(s,!0);if(n)return n(s,!0);var u=new Error("Cannot find module '"+s+"'");throw u.code="MODULE_NOT_FOUND",u}var a=o[s]={exports:{}};e[s][0].call(a.exports,function(r){var o=e[s][1][r];return t(o?o:r)},a,a.exports,r,e,o,i)}return o[s].exports}for(var n="function"==typeof require&&require,s=0;s<i.length;s++)t(i[s]);return t}({"./build/scripts/partials/app.js":[function(r){var e=r("./hello");e()},{"./hello":"/Users/bravocado/Sites/snip/experiment/gulp/woyo/build/scripts/partials/hello.js"}],"/Users/bravocado/Sites/snip/experiment/gulp/woyo/build/scripts/partials/hello.js":[function(r,e){e.exports=function(){console.log("hello!")}},{}]},{},["./build/scripts/partials/app.js"]);

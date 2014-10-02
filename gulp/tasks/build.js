@@ -1,3 +1,3 @@
 var gulp = require('gulp');
 
-gulp.task('build', ['clean', 'templates', 'sass', 'sass:compressed', 'critical', 'browserify', 'copy']);
+gulp.task('build', ['clean', 'templates', 'sass', 'sass:compressed', 'critical', 'scripts', 'copy:misc', 'copy:scripts']);

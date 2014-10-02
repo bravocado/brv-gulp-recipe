@@ -41,19 +41,21 @@ module.exports = {
   },
   copy: {
     htaccess: '.htaccess',
-    dest: 'dist'
+    miscDest: 'dist',
+    scriptSrc: 'build/scripts/**/*',
+    scriptDest: 'dist/scripts'
   },
-  browserify: {
+  scripts: {
     // Enable source maps
-    debug: true,
+    debug: false,
     // Additional file extentions to make optional
-    extensions: ['.js', 'coffee'],
+    extensions: ['.js', '.coffee'],
     // A separate bundle will be generated for each
     // bundle config in the list below
     bundleConfigs: [{
-      entries: './build/scripts/app.js',
-      dest: dest,
-      outputName: 'scripts/app.js'
+      entries: './build/scripts/partials/app.js',
+      dest: src + '/scripts',
+      outputName: 'app.js'
     }]
   }
 };

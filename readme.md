@@ -8,6 +8,14 @@ clone this repo. Go to this repo dir.
 
 `npm install`
 
+## Tools
+- [Jade](http://jade-lang.com/)
+- [Gulp](http://gulpjs.com/)
+- [SASS](http://sass-lang.com/)
+- [Backbone](http://backbonejs.org/)
+- [Underscore](http://underscorejs.org/)
+- [Coffeescript](http://coffeescript.org/)
+- [browserify](http://browserify.org/)
 
 ## Directory Structure
 

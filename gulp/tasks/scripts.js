@@ -9,7 +9,7 @@ var gulp = require('gulp'),
     config = require('../config').scripts
 ;
 
-gulp.task('scripts', function(callback) {
+gulp.task('scripts', ['templates'], function(callback) {
 
   var bundleQueue = config.bundleConfigs.length;
 
@@ -40,7 +40,8 @@ gulp.task('scripts', function(callback) {
         .pipe(source(bundleConfig.outputName))
         .pipe(streamify(uglify))
         // Specify the output destination
-        .pipe(gulp.dest(bundleConfig.dest))
+        .pipe(gulp.dest(bundleConfig.destBuild))
+        .pipe(gulp.dest(bundleConfig.destDist))
         .on('end', reportFinished);
     };
 

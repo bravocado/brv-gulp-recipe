@@ -54,11 +54,13 @@ module.exports = {
     // bundle config in the list below
     bundleConfigs: [{
       entries: './build/scripts/partials/app.js',
-      dest: src + '/scripts',
+      destBuild: src + '/scripts',
+      destDist: dest + '/scripts',
       outputName: 'app.js'
     },{
       entries: './build/scripts/partials/jqplugin.js',
-      dest: src + '/scripts',
+      destBuild: src + '/scripts',
+      destDist: dest + '/scripts',
       outputName: 'jqplugin.js'
     }]
   }

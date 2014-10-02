@@ -56,6 +56,10 @@ module.exports = {
       entries: './build/scripts/partials/app.js',
       dest: src + '/scripts',
       outputName: 'app.js'
+    },{
+      entries: './build/scripts/partials/jqplugin.js',
+      dest: src + '/scripts',
+      outputName: 'jqplugin.js'
     }]
   }
 };

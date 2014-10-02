@@ -3,7 +3,7 @@ var gulp = require('gulp'),
 ;
 
 gulp.task('copy:misc', ['scripts'] , function() {
-  gulp.src(config.htaccess)
+  gulp.src(config.miscSrc)
     .pipe(gulp.dest(config.miscDest));
 });
 

@@ -40,14 +40,14 @@ module.exports = {
     minify: true
   },
   copy: {
-    htaccess: '.htaccess',
+    miscSrc: ['.htaccess', 'package.json'],
     miscDest: 'dist',
     scriptSrc: 'build/scripts/**/*',
     scriptDest: 'dist/scripts'
   },
   scripts: {
     // Enable source maps
-    debug: false,
+    debug: true,
     // Additional file extentions to make optional
     extensions: ['.js', '.coffee'],
     // A separate bundle will be generated for each

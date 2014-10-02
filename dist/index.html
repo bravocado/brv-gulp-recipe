@@ -40,8 +40,20 @@ footer,header,section{display:block}html{font-family:sans-serif;-webkit-text-siz
     <footer>
       <p>this is footer</p>
     </footer>
-    <script src="scripts/app.js"></script>
-    <script src="scripts/jqplugin.js"></script>
+    <script type="text/javascript">
+      // Add a script element as a child of the body
+       function downloadJSAtOnload() {
+       var element = document.createElement("script");
+       element.src = "scripts/jqplugin.js";
+       document.body.appendChild(element);
+       }
+       // Check for browser support of event handling capability
+       if (window.addEventListener)
+       window.addEventListener("load", downloadJSAtOnload, false);
+       else if (window.attachEvent)
+       window.attachEvent("onload", downloadJSAtOnload);
+       else window.onload = downloadJSAtOnload;
+    </script>
     <script type="text/javascript">
       function loadCSS(e,t,n){"use strict";var i=window.document.createElement("link");var o=t||window.document.getElementsByTagName("script")[0];i.rel="stylesheet";i.href=e;i.media="only x";o.parentNode.insertBefore(i,o);setTimeout(function(){i.media=n||"all"})}
       loadCSS('css/style.min.css');

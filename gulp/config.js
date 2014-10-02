@@ -35,12 +35,12 @@ module.exports = {
     src: 'index.html',
     styleTarget: 'css/critical.css',
     htmlTarget: 'index.html',
-    width: 320,
-    height: 480,
+    width: 1440,
+    height: 800,
     minify: true
   },
   copy: {
-    miscSrc: ['.htaccess', 'package.json'],
+    miscSrc: ['.htaccess'],
     miscDest: 'dist',
     scriptSrc: 'build/scripts/**/*',
     scriptDest: 'dist/scripts'

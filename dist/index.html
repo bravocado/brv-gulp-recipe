@@ -26,7 +26,7 @@ footer,header,section{display:block}html{font-family:sans-serif;-webkit-text-siz
 <link rel="stylesheet" href="css/style.min.css" type="text/css">
 </noscript>
     <script type="text/javascript">
-      function loadCSS(e,t,n){"use strict";var i=window.document.createElement("link");var o=t||window.document.getElementsByTagName("body")[0];i.rel="stylesheet";i.href=e;i.media="only x";o.parentNode.insertBefore(i,o);setTimeout(function(){i.media=n||"all"})}
+      function loadCSS(e,t,n){"use strict";var i=window.document.createElement("link");var o=t||window.document.getElementsByTagName("head")[0];i.rel="stylesheet";i.href=e;i.media="only x";o.parentNode.insertBefore(i,o);setTimeout(function(){i.media=n||"all"})}
       loadCSS('css/style.min.css');
     </script>
   </head>
@@ -58,5 +58,8 @@ footer,header,section{display:block}html{font-family:sans-serif;-webkit-text-siz
        window.attachEvent("onload", downloadJSAtOnload);
        else window.onload = downloadJSAtOnload;
     </script>
+  <script>
+(function(d,u){for (var i in u) {var l=d.createElement('link');l.type='text/css';l.rel='stylesheet';l.href=u[i]; d.getElementsByTagName('head')[0].appendChild(l);}}(document,['css/style.min.css']));
+</script>
 </body>
 </html>

@@ -3,7 +3,7 @@ var gulp = require('gulp')
 		,config = require('../config').templates
 ;
 
-gulp.task('templates', ['clean'], function() {
+gulp.task('templates' , function() {
 
   gulp.src(config.src)
     .pipe(jade({

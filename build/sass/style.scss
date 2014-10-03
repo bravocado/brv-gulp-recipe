@@ -1,8 +1,10 @@
 // setting a charset
 @charset "UTF-8";
 
-@import "conditional",
-				"values",
-				"anila",
-				"custom/main"
+@import 
+				"anila/tools/functions"
+				,"conditional"
+				,"values"
+				,"anila"
+				,"custom/main"
 ;

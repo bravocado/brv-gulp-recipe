@@ -16,6 +16,7 @@ module.exports = {
   },
   sass: {
     src: src + "/sass/*.{scss, sass}",
+    srcCustom: src + "/sass/**/*.{scss, sass}",    
     dest: dest + "/css"
   },
   images: {

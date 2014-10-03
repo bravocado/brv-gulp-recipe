@@ -8,7 +8,7 @@ var gulp  = require('gulp')
 ;
 
 gulp.task('watch', ['setWatch', 'browserSync'], function() {
-  gulp.watch(config.sass.src,   ['sass']);
+  gulp.watch([config.sass.src, config.sass.srcCustom],   ['sass', 'sass:compressed']);
   gulp.watch(config.images.src, ['images']);
   gulp.watch(config.templates.src, ['templates']);
   gulp.watch(config.copy.miscSrc, ['copy:misc']);

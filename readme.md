@@ -1,6 +1,6 @@
 # An Experiment of Gulp Recipe
 
-[![Build Status](https://travis-ci.org/bravocado/brv-gulp-recipe.svg?branch=master))](https://travis-ci.org/bravocado/brv-gulp-recipe)
+[![Build Status](https://travis-ci.org/bravocado/brv-gulp-recipe.svg?branch=master)](https://travis-ci.org/bravocado/brv-gulp-recipe)
 
 Don't use it if you don't need a time saver.
 

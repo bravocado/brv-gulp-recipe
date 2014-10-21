@@ -1131,7 +1131,7 @@ GRID SYSTEM
   .col.sm-uncentered.opposite {
     float: right !important; } }
 
-@media only screen and (min-width:lower-bound(641px, 1024px)) {
+@media only screen and (min-width:641px) {
   .md-push-1 {
     position: relative;
     left: 8.33333%;
@@ -1398,7 +1398,7 @@ GRID SYSTEM
     right: 91.66667%;
     left: auto; } }
 
-@media only screen and (min-width:lower-bound(1025px, 1440px)) {
+@media only screen and (min-width:1025px) {
   .lg-push-1 {
     position: relative;
     left: 8.33333%;
@@ -1577,7 +1577,7 @@ GRID SYSTEM
   .col.lg-uncentered.opposite {
     float: right !important; } }
 
-@media only screen and (min-width:lower-bound(1441px, 1920px)) {
+@media only screen and (min-width:1441px) {
   .xl-push-1 {
     position: relative;
     left: 8.33333%;
@@ -1756,7 +1756,7 @@ GRID SYSTEM
   .col.xl-uncentered.opposite {
     float: right !important; } }
 
-@media only screen and (min-width:lower-bound(1921px)) {
+@media only screen and (min-width:1921px) {
   .xxl-push-1 {
     position: relative;
     left: 8.33333%;
@@ -2040,7 +2040,7 @@ GRID SYSTEM
       clear: both; } }
 
 /* === MEDIUM GRID CLASSES === */
-@media only screen and (min-width:lower-bound(641px, 1024px)) {
+@media only screen and (min-width:641px) {
   .md-block-grid-1 > li {
     width: 100%;
     padding: 0 0.55556rem 1.11111rem ; }
@@ -2127,7 +2127,7 @@ GRID SYSTEM
       clear: both; } }
 
 /* === LARGE GRID CLASSES === */
-@media only screen and (min-width:lower-bound(1025px, 1440px)) {
+@media only screen and (min-width:1025px) {
   .lg-block-grid-1 > li {
     width: 100%;
     padding: 0 0.55556rem 1.11111rem ; }
@@ -2470,7 +2470,7 @@ span.quaternary {
 span.quinary {
   color: #f79813; }
 
-@media only screen and (min-width:lower-bound(641px, 1024px)) {
+@media only screen and (min-width:641px) {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
   h1 {

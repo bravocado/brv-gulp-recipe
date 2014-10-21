@@ -8,8 +8,8 @@ var gulp  = require('gulp')
 ;
 
 gulp.task('watch', ['setWatch', 'browserSync'], function() {
-  gulp.watch([config.sass.src, config.sass.srcCustom],   ['sass', 'sass:compressed']);
+  gulp.watch([config.sass.src, config.sass.srcCustom],   ['sass', 'sass:compressed', 'critical']);
   gulp.watch(config.images.src, ['images']);
-  gulp.watch(config.templates.src, ['templates']);
+  gulp.watch(config.templates.src, ['templates', 'critical']);
   gulp.watch(config.copy.miscSrc, ['copy:misc']);
 });

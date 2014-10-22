@@ -1,6 +1,8 @@
 # An Experiment of Gulp Recipe
 
 [![Build Status](https://travis-ci.org/bravocado/brv-gulp-recipe.svg?branch=master)](https://travis-ci.org/bravocado/brv-gulp-recipe)
+[ ![Codeship Status for bravocado/anila](https://www.codeship.io/projects/66ef3830-3c4f-0132-eaa1-769cac91126e/status)](https://www.codeship.io/projects/42939)
+
 
 Don't use it if you don't need a time saver.
 

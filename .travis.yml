@@ -12,6 +12,7 @@ script:
   - npm install
 after_script:
   - npm test
+  - gulp clean
   - gulp
 env:
   global:

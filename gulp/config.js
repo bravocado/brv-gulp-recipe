@@ -25,6 +25,7 @@ module.exports = {
   },
   templates: {
     src: [src + "/views/**/*.jade", "!" + src + "/views/layouts/*.jade", "!" + src + "/views/includes/*.jade"],
+    dataSrc: '../../build/views/data/',
     dest: dest
   },
   copystyles: {
